@@ -7,7 +7,7 @@
 
   /* ========= COLORS =========== */
   /*  Change favorite color  */
-  --hue-color: 45; /* Purple 230 - Green 142 - Blue 250 - pink 340 */
+  --hue-color: 250; /* Purple 230 - Green 142 - Blue 250 - pink 340 */
 
   /* HSL color made */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -72,11 +72,7 @@
 /* ================ Variables Dark theme =====================*/
 body.dark-theme {
   /* HSL color made */
-  --first-color-second: /*hsl(var(--hue-color), 30%, 8%)*/ hsl(
-    var(--hue-color),
-    92%,
-    85%
-  );
+  --first-color-second: hsl(var(--hue-color), 30%, 8%);
   --first-color-lighter: hsl(var(--hue-color), 30%, 8%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -510,7 +506,7 @@ img {
 
 .skills_percentage {
   display: block;
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
 }
 
 .skills_html {
@@ -959,7 +955,7 @@ img {
 .footer_copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: /*var(--text-color-light) */ #000;
+  color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
 
